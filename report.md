@@ -1,0 +1,60 @@
+# 41343132,41343136
+
+作業二
+
+## 解題說明
+
+實作三種表示法，並做出有權重及無權重的無向圖
+還有在三種表示法下做出:
+   - DFS,BSF,Connected Components,Spanning Trees,Biconnected Components
+   - Kruskal’s Algorithm,Prim’s Algorithm
+   - Nonnegative Edge Costs,General Weights,All Pairs Shortest Paths
+   - AOV,AOE
+
+
+## 程式實作
+
+
+
+
+## 效能分析
+
+1. 空間複雜度
+
+|表示法|複雜度|
+|--|--|
+|Adjacency Matrix|$O(V^2)$|
+|Linked Adjacency Lists|$O(V + E)$|
+|Array Adjacency Lists|$O(V + E)$|
+
+
+
+2.時間複雜度
+
+|演算法|matrix|lists|
+|---|---|---|
+|DFS / BFS|$O(V^2)$|$O(V+E)$|
+|Connected Components|$O(V^2)$|$O(V + E)$|
+|Spanning Trees|$O(V^2)$|$O(V+E)$|
+|Biconnected Comp|$O(V^2)$|$O(V + E)$|
+|Kruskal|$O(E \log E)$|$O(E \log E)$|
+|Prim|$O(V^2)$|$O(E \log V)$|
+|Nonnegative Edge Costs|$O(V^2)$|$O(E \log V)$| 
+|General Weights|$O(V^3)$|$O(V \times E)$|
+|All-Pairs Shortest Paths|$O(V^3)$|$O(V^3)$|
+|AOV|$O(V^2)$|$O(V+E)$|
+|AOE|$O(V^2)$|$O(V+E)$|
+
+## 4. 測試與驗證
+
+
+## 5. 申論及開發報告
+
+這次作業做了許多東西，就比如三種表示法，還有運用於其底下的許多演算法。
+去稍微查找資料了解到，在不同情況下有不同的使用方式及方法。
+- Matrix適合密集圖。
+- List適合稀疏圖。
+- BFS跟DFS是圖的基礎核心演算法。
+- Prim跟Kruskal在網路設計等問題中很重要。
+- 最短路徑問題在導航、網路傳輸中廣泛應用。
+- AOV跟AOE則應用於排程與專案管理。
